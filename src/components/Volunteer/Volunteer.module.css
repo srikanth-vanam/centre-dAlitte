@@ -1,0 +1,71 @@
+.container {
+  position: relative;
+  height: 110vh;
+  width: 100%;
+  background-image: url(vounteer_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 3rem;
+  width: 80%;
+  height: 90%;
+  margin: auto;
+  color: white;
+  display: flex;
+}
+.left {
+  padding: 1rem;
+  width: 50%;
+}
+.left h5 {
+  font-style: italic;
+  font-family: "Playfair Display";
+}
+.img {
+  height: 40%;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.img img {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+}
+
+/* right part of volunteer */
+.right {
+  width: 50%;
+  border: 2px solid white;
+  padding: 3rem;
+}
+.right input {
+  background: none;
+  outline: none;
+  border: 1px solid whitesmoke;
+  padding: 0.5rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.right textarea {
+  background: none;
+  outline: none;
+  border: 1px solid whitesmoke;
+  padding: 0.5rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.right button {
+  margin-bottom: 1rem;
+}

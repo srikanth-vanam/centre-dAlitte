@@ -1,0 +1,20 @@
+.bg {
+  margin-top: 10%;
+  height: 90vh;
+  width: 100%;
+  background-color: #faedfa;
+}
+.bgbody {
+  width: 80%;
+  margin: auto;
+  padding-top: 5%;
+}
+.bgbody h5 {
+  font-style: italic;
+  color: red;
+  font-family: 'Playfair Display';
+}
+.slider{
+  margin: auto;
+  width: 80%;
+}

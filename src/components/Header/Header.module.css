@@ -1,0 +1,28 @@
+.header {
+  color: black;
+  margin: 1rem;
+}
+.navbar {
+  height: 100px;
+}
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.ul {
+  display: flex;
+  flex: 1;
+  font-weight: bold;
+}
+
+.ul li {
+  list-style-type: none;
+  border-right: 1px solid wheat;
+}
+.navlink {
+  text-decoration: none;
+  margin: 1rem;
+}
+

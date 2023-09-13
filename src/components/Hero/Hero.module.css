@@ -1,0 +1,76 @@
+.img {
+  height: 80vh;
+  width: 100%;
+  background-image: url(tms-hero1.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.heroText {
+  position: relative;
+  top: 15vh;
+  margin-left: 30vh;
+  overflow: hidden;
+  color: black;
+}
+.heroText h1 {
+  font-size: 3.5rem;
+}
+
+.container {
+  /* position: absolute; */
+  /* top: 0;
+  left: 25%;
+  overflow: hidden; */
+  display: flex;
+  width: 70%;
+  margin: auto;
+  height: 250px;
+  margin-bottom: 100px;
+}
+.card {
+  width: 37%;
+  height: 250px;
+  margin-bottom: 100px;
+}
+.card1 {
+  padding: 2rem;
+  background-color: #0bd9d2;
+}
+.btn1 {
+  border: 1px solid white;
+  background: whitesmoke;
+  color: black;
+  /* font-weight: 500; */
+}
+.card2 {
+  padding: 1.5rem;
+  color: white;
+  background-color: #323338;
+}
+.btn2 {
+  border: none;
+  background: #323338;
+  text-decoration: underline;
+  /* font-weight: 500; */
+  font-size: 0.9rem;
+}
+
+.card3 {
+  position: relative;
+  background-image: url(tms-hero.jpeg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  filter: blur(1px);
+}
+.play {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  height: 30%;
+  width: 30%;
+  background-image: url(circle-play-solid.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
