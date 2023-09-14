@@ -47,43 +47,43 @@ const DonateSlider = () => {
     {
       id: "one",
       price: "10000",
-      src: require("./child1.jpg"),
+      src: require("./child1-min.jpg"),
     },
     {
       id: "two",
       price: "18000",
-      src: require("./child2.jpg"),
+      src: require("./child2-min.jpg"),
     },
     {
       id: "three",
       price: "8000",
-      src: require("./child3.jpg"),
+      src: require("./child3-min.jpg"),
     },
     {
       id: "four",
       price: "9000",
-      src: require("./child4.jpg"),
+      src: require("./child4-min.jpg"),
     },
-    {
-      id: "oneone",
-      price: "10000",
-      src: require("./child1.jpg"),
-    },
-    {
-      id: "twotwo",
-      price: "18000",
-      src: require("./child2.jpg"),
-    },
-    {
-      id: "threethree",
-      price: "8000",
-      src: require("./child3.jpg"),
-    },
-    {
-      id: "fourfour",
-      price: "9000",
-      src: require("./child4.jpg"),
-    },
+    // {
+    //   id: "oneone",
+    //   price: "10000",
+    //   src: require("./child1.jpg"),
+    // },
+    // {
+    //   id: "twotwo",
+    //   price: "18000",
+    //   src: require("./child2.jpg"),
+    // },
+    // {
+    //   id: "threethree",
+    //   price: "8000",
+    //   src: require("./child3.jpg"),
+    // },
+    // {
+    //   id: "fourfour",
+    //   price: "9000",
+    //   src: require("./child4.jpg"),
+    // },
   ];
   return (
     <>

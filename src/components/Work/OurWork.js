@@ -10,7 +10,7 @@ const OurWork = () => {
             <div className={classes.row}>
               <div className={classes.card}>
                 <div className={classes.icon}>
-                  <i class="fa-solid fa-pills" style={{ color: "#d1640a" }}></i>
+                  <i class="fa-solid fa-pills" style={{ color: "#d32b0d" }}></i>
                 </div>
                 <h4>Medicine Help</h4>
                 <p>
@@ -22,7 +22,7 @@ const OurWork = () => {
                 <div className={classes.icon}>
                   <i
                     class="fa-solid fa-hand-holding-droplet"
-                    style={{ color: "#e62f0f" }}
+                    style={{ color: "#d32b0d" }}
                   ></i>
                 </div>
                 <h4>Water Delivery</h4>
@@ -35,7 +35,7 @@ const OurWork = () => {
                 <div className={classes.icon}>
                   <i
                     class="fa-solid fa-hands-holding-child"
-                    style={{ color: "#ee6820" }}
+                    style={{ color: "#d32b0d" }}
                   ></i>
                 </div>
                 <h4>We Care About</h4>

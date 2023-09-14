@@ -15,7 +15,7 @@ const Volunteer = () => {
             perferendis dolorum iure quae distinctio nobis.
           </p>
           <div className={classes.img}>
-            <img src={require("./volunteer2.jpg")} alt="" />
+            <img src={require("./volunteer2-min.jpg")} alt="" />
           </div>
           <Button>DONATE NOW</Button>
         </div>
