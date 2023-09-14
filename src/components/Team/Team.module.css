@@ -1,0 +1,59 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: #faedfa;
+  font-family: "Playfair Display";
+}
+.content {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  padding-top: 5rem;
+}
+.content h5 {
+  color: red;
+  text-align: center;
+  font-style: italic;
+}
+h3 {
+  text-align: center;
+}
+.main {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+  width: 100%;
+  height: 90%;
+}
+.card {
+  height: 90%;
+  width: 20%;
+  text-align: center;
+  margin-right: 1rem;
+}
+h6 {
+  margin: 0.2rem;
+}
+.main img {
+  height: 80%;
+  width: 100%;
+}
+.lastCard {
+  background-color: #67e2f5;
+  padding: 1rem;
+}
+.card button {
+  background: black;
+  border: none;
+}
+.icon {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.i {
+  height: 20%;
+  width: 100%;
+  font-size: 50px;
+}

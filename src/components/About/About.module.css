@@ -1,70 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 
 .aboutText {
-    margin-left: 15%;
-    font-style: italic;
-    color: red;
-    font-family: 'Playfair Display';
-  }
-  .aboutContainer {
-    display: flex;
-    width: 70%;
-    margin: auto;
-  }
-  .about {
-    height: 330px;
-    width: 50%;
-    padding: 0.4rem;
-  }
-  
-  .donate {
-    height: 330px;
-    width: 50%;
-    padding: 0.4rem;
-    background-color: #e0e0de;
-    padding: 2rem;
-  }
-  .col {
-    display: flex;
-  }
-  .donateCol {
-    width: 50%;
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-  .donateIcon {
-    background-image: url(circle-check-solid.svg);
-    background-repeat: no-repeat;
-    height: 40px;
-    width: 10%;
-    margin-right: 0.5rem;
-  }
-  .item {
-    display: flex;
-  }
-  .progressBar {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    height: 10px;
-    border-radius: 10px;
-    background-color: white;
-  }
-  .redBar {
-    height: 10px;
-    border-radius: 10px;
-    width: 80%;
-    background-color: red;
-  }
-  .money {
-    display: flex;
-    justify-content: space-between;
-  }
-  .donate button {
-    margin-top: 1rem;
-    background: white;
-    border: none;
-    color: black;
-    font-size: 0.8rem;
-  }
+  margin-left: 15%;
+  font-style: italic;
+  color: red;
+  font-family: "Playfair Display";
+  margin-bottom: 0;
+}
+.aboutContainer {
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+.about {
+  height: 330px;
+  width: 50%;
+  padding: 0.4rem;
+}
+
+.donate {
+  height: 330px;
+  width: 50%;
+  padding: 0.4rem;
+  background-color: #e0e0de;
+  padding: 2rem;
+}
+.col {
+  display: flex;
+}
+.donateCol {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.donateIcon {
+  background-image: url(circle-check-solid.svg);
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 10%;
+  margin-right: 0.5rem;
+}
+.item {
+  display: flex;
+}
+.progressBar {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+.redBar {
+  height: 10px;
+  border-radius: 10px;
+  width: 80%;
+  background-color: red;
+}
+.money {
+  display: flex;
+  justify-content: space-between;
+}
+.donate button {
+  margin-top: 1rem;
+  background: white;
+  border: none;
+  color: black;
+  font-size: 0.8rem;
+}

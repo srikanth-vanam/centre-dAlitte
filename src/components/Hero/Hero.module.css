@@ -1,3 +1,9 @@
+.outer {
+  height: 120vh;
+  display: block;
+  width: 100%;
+  margin-bottom: 5%;
+}
 .img {
   height: 80vh;
   width: 100%;
@@ -17,10 +23,10 @@
 }
 
 .container {
-  /* position: absolute; */
-  /* top: 0;
-  left: 25%;
-  overflow: hidden; */
+  position: absolute;
+  top: 85vh;
+  left: 15%;
+  /* overflow: hidden; */
   display: flex;
   width: 70%;
   margin: auto;
@@ -60,7 +66,7 @@
   background-image: url(tms-hero.jpeg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  filter: blur(1px);
+  opacity: 0.7;
 }
 .play {
   top: 50%;
@@ -73,4 +79,3 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-

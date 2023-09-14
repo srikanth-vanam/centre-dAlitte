@@ -2,7 +2,7 @@ import classes from "./Hero.module.css";
 import Button from "../UI/Button/Button";
 const Hero = () => {
   return (
-    <>
+    <div className={classes.outer}>
       <div className={classes.img}>
         <div className={classes.heroText}>
           <h1>an NGO for Children</h1>
@@ -29,7 +29,7 @@ const Hero = () => {
           <div className={classes.play}></div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
