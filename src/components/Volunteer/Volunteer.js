@@ -2,7 +2,7 @@ import Button from "../UI/Button/Button";
 import classes from "./Volunteer.module.css";
 const Volunteer = () => {
   return (
-    <div className={classes.container}>
+    <div id="volunteer"  className={classes.container}>
       <div className={classes.overlay}></div>
       <div className={classes.content}>
         <div className={classes.left}>

@@ -3,7 +3,7 @@ import Button from "../UI/Button/Button";
 const About = () => {
   return (
     <>
-      <p className={classes.aboutText}>About Us</p>
+      <h5 className={classes.aboutText}>About Us</h5>
       <div id="about" className={classes.aboutContainer}>
         <div className={classes.about}>
           <h3>Help People,</h3>
@@ -23,29 +23,41 @@ const About = () => {
           <div className={classes.col}>
             <div className={classes.donateCol}>
               <div className={classes.item}>
-                <span className={classes.donateIcon}> </span>
+                <div className={classes.donateIcon}>
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
                 <p>Food Donation</p>
               </div>
               <div className={classes.item}>
-                <span className={classes.donateIcon}></span>
+                <div className={classes.donateIcon}>
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
                 <p>Money Donation</p>
               </div>
               <div className={classes.item}>
-                <span className={classes.donateIcon}></span>
+                <div className={classes.donateIcon}>
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
                 <p>Dress Donation</p>
               </div>
             </div>
             <div className={classes.donateCol}>
               <div className={classes.item}>
-                <span className={classes.donateIcon}></span>
+                <div className={classes.donateIcon}>
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
                 <p>Water Supply</p>
               </div>
               <div className={classes.item}>
-                <span className={classes.donateIcon}></span>
+                <div className={classes.donateIcon}>
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
                 <p>Education Donation</p>
               </div>
               <div className={classes.item}>
-                <span className={classes.donateIcon}></span>
+                <div className={classes.donateIcon}>
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
                 <p>Toys Donation</p>
               </div>
             </div>

@@ -7,14 +7,20 @@ function Arrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "orange" }}
+      style={{
+        ...style,
+        display: "block",
+        border: "2px solid black",
+        borderRadius: "50px",
+        backgroundColor: "rgba(0,0,0,0.5)",
+      }}
       onClick={onClick}
     />
   );
 }
 const DonateSlider = () => {
   var settings = {
-    dots: false,
+    dots: true,
     infinite: false,
     speed: 500,
     slidesToShow: 3,
@@ -89,9 +95,9 @@ const DonateSlider = () => {
     <>
       <div className="mt-5">
         <Slider {...settings}>
-            {donateItems.map((item)=>(
-                <DonateCard price={item.price} src={item.src} key={item.id}/>
-            ))}
+          {donateItems.map((item) => (
+            <DonateCard price={item.price} src={item.src} key={item.id} />
+          ))}
         </Slider>
       </div>
     </>

@@ -2,9 +2,9 @@ import Button from "../UI/Button/Button";
 import classes from "./Team.module.css";
 const Team = () => {
   return (
-    <div className={classes.container}>
+    <div id="team" className={classes.container}>
       <div className={classes.content}>
-        <h5>The Team</h5>
+        <h5 className={classes.h5}>The Team</h5>
         <h3>Meet Our Volunteers</h3>
         <div className={classes.main}>
           <div className={classes.card}>
@@ -12,7 +12,7 @@ const Team = () => {
               src={process.env.PUBLIC_URL + "/images/team/team1-min.jpg"}
               alt="team1"
             />
-            <h6>James camaroon</h6>
+            <h5>James camaroon</h5>
             <div className={classes.icon}>
               <i class="fa-brands fa-square-instagram"></i>
               <i class="fa-brands fa-facebook"></i>
@@ -25,7 +25,7 @@ const Team = () => {
               src={process.env.PUBLIC_URL + "/images/team/team2-min.jpg"}
               alt="team2"
             />
-            <h6>Rose Darson</h6>
+            <h5>Rose Darson</h5>
             <div className={classes.icon}>
               <i class="fa-brands fa-square-instagram"></i>
               <i class="fa-brands fa-facebook"></i>
@@ -38,7 +38,7 @@ const Team = () => {
               src={process.env.PUBLIC_URL + "/images/team/team3-min.jpg"}
               alt="team3"
             />
-            <h6>Alan walker</h6>
+            <h5>Alan walker</h5>
             <div className={classes.icon}>
               <i class="fa-brands fa-square-instagram"></i>
               <i class="fa-brands fa-facebook"></i>

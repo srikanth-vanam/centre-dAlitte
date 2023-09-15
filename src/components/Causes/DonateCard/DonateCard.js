@@ -11,7 +11,7 @@ const DonateCard = (props) => {
       <div className="price">${props.price}</div>
       <div className="lower">
         <p>
-          {props.sno}Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Quis, eos.
         </p>
         <Button>donate</Button>

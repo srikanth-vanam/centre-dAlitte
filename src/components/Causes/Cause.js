@@ -4,10 +4,10 @@ import DonateSlider from "./DonateSlider";
 const Cause = () => {
   return (
     <>
-      <div className={classes.bg}>
+      <div id="causes"  className={classes.bg}>
         <div className={classes.bgbody}>
           <h5>Our Causes</h5>
-          <div className="d-flex justify-content-between ">
+          <div className={classes.top}>
             <h3>You can help lots of people by donate something.</h3>
             <Button>more causes</Button>
           </div>

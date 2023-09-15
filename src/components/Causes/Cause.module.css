@@ -3,18 +3,27 @@
   height: 90vh;
   width: 100%;
   background-color: #faedfa;
+  font-family: "Playfair Display";
 }
 .bgbody {
-  width: 80%;
+  width: 70%;
   margin: auto;
   padding-top: 5%;
 }
 .bgbody h5 {
   font-style: italic;
   color: red;
-  font-family: 'Playfair Display';
 }
-.slider{
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top h3 {
+  width: 32%;
+  text-align: left;
+}
+.slider {
   margin: auto;
-  width: 80%;
+  width: 70%;
 }

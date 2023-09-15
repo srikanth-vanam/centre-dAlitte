@@ -1,5 +1,5 @@
 .card {
-  width: 60%;
+  width: 70%;
   height: 40%;
 }
 .img {
@@ -12,7 +12,6 @@
   left: 1vh;
   border: 2px solid white;
   background: white;
-  /* padding: 5px; */
   color: red;
 }
 .img img {

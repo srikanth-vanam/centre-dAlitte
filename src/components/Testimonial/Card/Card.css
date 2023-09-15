@@ -1,0 +1,30 @@
+.cardProof{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #e4f0f3;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+.cardLeft{
+    width: 30%;
+    height: 90%;
+    padding: 0.5rem;
+}
+.cardLeft img{
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+}
+.cardRight{
+    height: 100%;
+    width: 70%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+.cardRight h3{
+    text-align: left;
+
+}
