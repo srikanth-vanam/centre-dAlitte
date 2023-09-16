@@ -1,6 +1,6 @@
 .bg {
   margin-top: 10%;
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   background-color: #faedfa;
   font-family: "Playfair Display";
@@ -20,7 +20,7 @@
   align-items: center;
 }
 .top h3 {
-  width: 32%;
+  width: 40%;
   text-align: left;
 }
 .slider {

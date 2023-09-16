@@ -10,7 +10,7 @@ const Hero = () => {
           <h1>NGO committed to Empower Children</h1>
           <div className={classes.buttons}>
             <Button className={classes.button}>donate</Button>
-          <Button className={classes.btn1}>discover</Button>
+            <Button className={classes.btn1}>discover</Button>
           </div>
         </div>
       </div>
@@ -22,16 +22,18 @@ const Hero = () => {
             the go for
           </p>
           <Button className={classes.btn1}>discover</Button>
-        </div>j
+        </div>
         <div className={`${classes.card2} ${classes.card}`}>
           <h2>Become a Volunteer</h2>
           <p>Your gift can help change any ones future life</p>
           <Button className={classes.btn2}>Join organization</Button>
         </div>
         <div className={`${classes.card3} ${classes.card}`}>
-        <h2>Become a Teacher</h2>
-          <p>You can teach children and empower them with future ready skills</p>
-          <Button className={classes.btn1}>Educate</Button>
+          <h2>Become a Teacher</h2>
+          <p>
+            You can teach children and empower them with future ready skills. click to know more
+          </p>
+          <Button className={classes.btn1}>be a Teacher</Button>
         </div>
       </div>
     </div>

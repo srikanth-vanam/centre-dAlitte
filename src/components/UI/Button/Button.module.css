@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 
 .button {
   border: 1px solid red;
@@ -9,28 +9,7 @@
   font: inherit;
   cursor: pointer;
   border-radius: 30px;
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   text-transform: uppercase;
   font-weight: 600;
 }
-
-/* .button:hover,
-  .button:active {
-    background: #741188;
-    border-color: #741188;
-  }
-  
-  .button:focus {
-    outline: none;
-  }
-  
-  button:disabled,
-  button:focus:disabled,
-  button:hover:disabled,
-  button:active:disabled {
-    background: #ccc;
-    border-color: #ccc;
-    color: #666666;
-    cursor: not-allowed;
-  }
-   */

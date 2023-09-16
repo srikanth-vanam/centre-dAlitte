@@ -29,7 +29,7 @@ const Volunteer = () => {
               name=""
               id=""
               cols="30"
-              rows="7"
+              rows="5"
               placeholder="Message*"
             ></textarea>
             <Button>submit now</Button>
