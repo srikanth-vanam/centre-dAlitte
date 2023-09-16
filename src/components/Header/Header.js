@@ -7,8 +7,8 @@ const Header = () => {
       <header className={classes.header}>
         <navbar className={classes.navbar}>
           <nav className={classes.nav}>
-            <div>
-              <h3>Centre dAmitie</h3>
+            <div className={classes.logo}>
+              <img src={require('./centre-damitié-logo-min.png')} alt="Logo of Center dAmitie" />
             </div>
             <div>
               <ul className={classes.ul}>

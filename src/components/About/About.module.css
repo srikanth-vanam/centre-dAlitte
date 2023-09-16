@@ -27,6 +27,7 @@
   padding: 0.4rem;
   background-color: #e0e0de;
   padding: 2rem;
+  border-radius: 15px;
 }
 .col {
   display: flex;

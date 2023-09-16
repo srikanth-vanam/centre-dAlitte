@@ -10,20 +10,27 @@ import Team from "./components/Team/Team";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Volunteer from "./components/Volunteer/Volunteer";
 import OurWork from "./components/Work/OurWork";
+import Contact from "./components/ContactPage/Contact";
+import { Route } from "react-router-dom/cjs/react-router-dom.min";
 function App() {
   return (
     <div>
-      <Header />
-      <Hero />
-      <About />
-      <Cause />
-      <Volunteer />
-      <OurWork />
-      <FeaturedProjects />
-      <Testimonial />
-      <Team />
-      <Events />
-      <Footer />
+      <Route path="/" exact>
+        <Header />
+        <Hero />
+        <About />
+        <Cause />
+        <Volunteer />
+        <OurWork />
+        <FeaturedProjects />
+        <Testimonial />
+        <Team />
+        <Events />
+        <Footer />
+      </Route>
+      <Route path="/contact">
+        <Contact />
+      </Route>
     </div>
   );
 }

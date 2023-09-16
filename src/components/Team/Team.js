@@ -9,7 +9,7 @@ const Team = () => {
         <div className={classes.main}>
           <div className={classes.card}>
             <img
-              src={process.env.PUBLIC_URL + "/images/team/team1-min.jpg"}
+              src={require("./images/team1-min.jpg")}
               alt="team1"
             />
             <h5>James camaroon</h5>
@@ -22,7 +22,7 @@ const Team = () => {
           </div>
           <div className={classes.card}>
             <img
-              src={process.env.PUBLIC_URL + "/images/team/team2-min.jpg"}
+              src={require("./images/team2-min.jpg")}
               alt="team2"
             />
             <h5>Rose Darson</h5>
@@ -35,7 +35,7 @@ const Team = () => {
           </div>
           <div className={classes.card}>
             <img
-              src={process.env.PUBLIC_URL + "/images/team/team3-min.jpg"}
+              src={require("./images/team3-min.jpg")}
               alt="team3"
             />
             <h5>Alan walker</h5>

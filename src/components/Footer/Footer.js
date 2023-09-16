@@ -30,7 +30,7 @@ const Footer = () => {
         <div className={classes.bottomContent}>
           <div className={classes.btmLeft}>
             <div className={classes.logo}>
-              <img src={require("./logo-min.png")} alt="centre-damitie-logo" />
+              <img src={require("./images/logo-min.png")} alt="centre-damitie-logo" />
               <h3 style={{ color: "white" }}>Center d'Amitie</h3>
             </div>
             <p>

@@ -2,10 +2,11 @@
   position: relative;
   height: 110vh;
   width: 100%;
-  background-image: url(vounteer_bg-min.jpg);
+  background-image: url(./images/jpeg-optimizer_vounteer_bg1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.9;
+  font-family: "Playfair Display";
 }
 .overlay {
   position: absolute;
@@ -31,7 +32,6 @@
 }
 .left h5 {
   font-style: italic;
-  font-family: "Playfair Display";
 }
 .img {
   height: 40%;
@@ -49,11 +49,13 @@
   width: 50%;
   border: 2px solid white;
   padding: 3rem;
+  border-radius: 10px;
 }
 .right input {
   background: none;
   outline: none;
   border: 1px solid whitesmoke;
+  color: whitesmoke;
   padding: 0.5rem;
   width: 100%;
   margin-bottom: 1rem;
@@ -64,6 +66,7 @@
   border: 1px solid whitesmoke;
   padding: 0.5rem;
   width: 100%;
+  color: whitesmoke;
   margin-bottom: 1rem;
 }
 .right button {

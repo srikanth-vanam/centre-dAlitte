@@ -4,10 +4,13 @@ const Hero = () => {
   return (
     <div className={classes.outer}>
       <div className={classes.img}>
+        <div className={classes.overlay}></div>
         <div className={classes.heroText}>
-          <h1>an NGO for Children</h1>
-          <div>
+          <h3>Centre d'Amitie</h3>
+          <h1>NGO committed to Empower Children</h1>
+          <div className={classes.buttons}>
             <Button className={classes.button}>donate</Button>
+          <Button className={classes.btn1}>discover</Button>
           </div>
         </div>
       </div>
@@ -19,14 +22,16 @@ const Hero = () => {
             the go for
           </p>
           <Button className={classes.btn1}>discover</Button>
-        </div>
+        </div>j
         <div className={`${classes.card2} ${classes.card}`}>
           <h2>Become a Volunteer</h2>
           <p>Your gift can help change any ones future life</p>
           <Button className={classes.btn2}>Join organization</Button>
         </div>
         <div className={`${classes.card3} ${classes.card}`}>
-          <div className={classes.play}></div>
+        <h2>Become a Teacher</h2>
+          <p>You can teach children and empower them with future ready skills</p>
+          <Button className={classes.btn1}>Educate</Button>
         </div>
       </div>
     </div>

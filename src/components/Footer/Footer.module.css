@@ -47,9 +47,9 @@
 .right {
   position: relative;
   width: 50%;
-  background-image: url(footer-min.jpg);
+  background-image: url(./images/jpeg-optimizer_footer-min.jpg);
   background-size: 100% 100%;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .overlay {
   position: absolute;
@@ -102,55 +102,55 @@
   color: rgba(255, 255, 255, 0.829);
   display: flex;
 }
-.btmLeft{
-    width: 30%;
-    margin-right: 1rem;
+.btmLeft {
+  width: 30%;
+  margin-right: 1rem;
 }
-.logo{
-    display: flex;
+.logo {
+  display: flex;
 }
-.logo img{
-    height: 40px;
-    width: 40px;
-    margin-right: 0.5rem;
+.logo img {
+  height: 40px;
+  width: 40px;
+  margin-right: 0.5rem;
 }
-.icons{
-    font-size: 40px;
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
+.icons {
+  font-size: 40px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
 }
-.btmRight{
-    width: 70%;
+.btmRight {
+  width: 70%;
   background-color: rgba(124, 124, 128, 0.247);
-    display: flex;
-    padding: 2rem;
+  display: flex;
+  padding: 2rem;
 }
-.list{
-    width: 33%;
-    margin-right: 1rem;
-    /* display: flex;
+.list {
+  width: 33%;
+  margin-right: 1rem;
+  /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; */
 }
-.list h4{
-    padding-left: 1.5rem;
+.list h4 {
+  padding-left: 1.5rem;
 }
-.list li{
-    padding: 0.5rem;
-    list-style-type:none;
+.list li {
+  padding: 0.5rem;
+  list-style-type: none;
 }
-.list li a{
-    color: rgba(255, 255, 255, 0.829);
-    text-decoration: none;
+.list li a {
+  color: rgba(255, 255, 255, 0.829);
+  text-decoration: none;
 }
-.footerText{
-    color: rgba(255, 255, 255, 0.829);
-    text-align: center;
-    padding-top: 3rem;
-    /* bottom: 0; */
-    /* display: flex;
+.footerText {
+  color: rgba(255, 255, 255, 0.829);
+  text-align: center;
+  padding-top: 3rem;
+  /* bottom: 0; */
+  /* display: flex;
     justify-content: center;
     align-items: flex-end; */
 }

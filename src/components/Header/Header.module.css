@@ -1,6 +1,6 @@
 .header {
   color: black;
-  margin: 1rem;
+  font-family: "Playfair Display";
 }
 .navbar {
   height: 100px;
@@ -10,7 +10,13 @@
   justify-content: space-evenly;
   align-items: center;
 }
-
+.logo {
+  height: 90px;
+}
+.logo img {
+  height: 100%;
+  background-size: contain;
+}
 .ul {
   display: flex;
   flex: 1;
@@ -22,7 +28,7 @@
   border-right: 1px solid wheat;
 }
 .navlink {
+  color: black;
   text-decoration: none;
   margin: 1rem;
 }
-

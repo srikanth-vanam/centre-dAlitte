@@ -20,17 +20,17 @@
   text-align: left;
 }
 .card1 {
-  background-image: url(./images/card1-min.jpg);
+  background-image: url(./images/jpeg-optimizer_grid2.jpg);
   background-size: contain;
   grid-column: 3 / span 2;
 }
 .card2 {
-  background-image: url(./images/card2-min.jpg);
+  background-image: url(./images/jpeg-optimizer_grid3.jpg);
   background-size: contain;
   grid-column: 1 /span 2;
 }
 .card3 {
-  background-image: url(./images/card3-min.jpg);
+  background-image: url(./images/jpeg-optimizer_grid4.jpg);
   background-size: contain;
   grid-column: 3 / span 2;
 }
