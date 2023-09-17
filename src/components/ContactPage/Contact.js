@@ -28,7 +28,7 @@ const Contact = () => {
             <div>
               <h5>General inquiries</h5>
               <p>
-                Reach us at <a href="#">info@centredamitie.com</a>
+                Reach us at <a href="#infoMail">info@centredamitie.com</a>
                 <br />
                 and we will get back to you asap
               </p>
@@ -38,7 +38,7 @@ const Contact = () => {
               <p>
                 visit our home page or send us an
                 <br />
-                email at <a href="#">volunteer@centredamitie.com</a>
+                email at <a href="#volunteerMail">volunteer@centredamitie.com</a>
               </p>
             </div>
             <div className={classes.follow}>
@@ -70,7 +70,7 @@ const Contact = () => {
             ></textarea>
             <Button>Submit your message</Button>
             <p>
-              check out our <a href="#">Privacy Policy</a>
+              check out our <a href="#privacy">Privacy Policy</a>
             </p>
           </form>
         </div>
