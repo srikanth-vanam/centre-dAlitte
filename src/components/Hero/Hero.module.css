@@ -1,3 +1,11 @@
+/* *{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+} */
+
+
+
 .outer {
   height: 120vh;
   display: block;
@@ -36,7 +44,7 @@
   font-size: 4rem;
 }
 .buttons {
-  width: 35%;
+  width: 40%;
   display: flex;
   justify-content: space-between;
 }

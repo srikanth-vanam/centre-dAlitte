@@ -1,4 +1,3 @@
-import "./App.css";
 import About from "./components/About/About";
 import Cause from "./components/Causes/Cause";
 import Events from "./components/Events/Events";

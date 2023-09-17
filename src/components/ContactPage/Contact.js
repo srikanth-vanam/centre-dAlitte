@@ -65,7 +65,7 @@ const Contact = () => {
             />
             <textarea
               cols="30"
-              rows="7"
+              rows="4"
               placeholder="Do you have any additional information?"
             ></textarea>
             <Button>Submit your message</Button>
